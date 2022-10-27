@@ -6,9 +6,9 @@
 body {
   font-family: "Oswald", sans-serif;
   display: grid;
-
   grid-gap: 1rem;
   min-height: 100vh;
+  grid-template-columns: 100%;
   grid-template-areas:
     "header"
     "main"
