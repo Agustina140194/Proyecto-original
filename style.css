@@ -5,24 +5,17 @@
 }
 body {
   font-family: "Oswald", sans-serif;
-  display: grid;
-  grid-gap: 1rem;
-  min-height: 100vh;
-  grid-template-columns: 100%;
-  grid-template-areas:
-    "header"
-    "main"
-    "footer";
 }
 
 img {
-  max-width: 100%;
+  max-width: 50%;
 }
 
 .container {
-  width: 80%;
+  width: 100%;
   margin: 0 auto;
   max-width: 1300px;
+  padding: 20%;
 }
 
 header {
@@ -32,7 +25,7 @@ header {
   top: 0%;
   z-index: 2;
   text-align: center;
-  grid-area: header;
+  width: 40rem;
 }
 
 header img {
@@ -58,6 +51,12 @@ header img {
 
 main {
   grid-area: main;
+}
+
+.main {
+  width: 70%;
+  padding: 20px;
+  box-sizing: border-box;
 }
 
 #seccion {
@@ -134,7 +133,6 @@ footer {
   text-transform: uppercase;
   font-weight: 400;
   padding: 1rem 0 1rem 0;
-  grid-area: footer;
 }
 
 .contenido-footer {
@@ -207,15 +205,13 @@ footer {
 }
 
 @media (min-width: 768px) {
-  body {
-    grid-template-areas:
-      "header"
-      "main"
-      "footer";
-  }
   .nav-list {
     display: flex;
     align-items: center;
     justify-content: space-between;
+  }
+
+  img {
+    max-width: 100%;
   }
 }
