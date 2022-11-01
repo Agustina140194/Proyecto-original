@@ -5,17 +5,18 @@
 }
 body {
   font-family: "Oswald", sans-serif;
+  display: grid;
+  grid-gap: 1rem;
+  min-height: 100vh;
+  grid-template-columns: 100%;
+  grid-template-areas:
+    "header"
+    "main"
+    "footer";
 }
 
 img {
-  max-width: 50%;
-}
-
-.container {
-  width: 100%;
-  margin: 0 auto;
-  max-width: 1300px;
-  padding: 20%;
+  max-width: 100%;
 }
 
 header {
@@ -25,10 +26,10 @@ header {
   top: 0%;
   z-index: 2;
   text-align: center;
-  width: 40rem;
+  grid-area: header;
 }
 
-header img {
+.container-fluid img {
   width: 8rem;
   padding: 1rem;
   animation: from-right 1.5s ease;
@@ -50,18 +51,8 @@ header img {
 }
 
 main {
+  background-color: aquamarine;
   grid-area: main;
-}
-
-.main {
-  width: 70%;
-  padding: 20px;
-  box-sizing: border-box;
-}
-
-#seccion {
-  background-image: linear-gradient(coral, red);
-  padding: 4rem;
 }
 
 .intro__col {
@@ -77,7 +68,7 @@ main {
 .intro__col--tittle {
   background-color: brown;
   font-weight: bold;
-  font-size: 4rem;
+  font-size: 3rem;
   text-transform: uppercase;
 }
 
@@ -106,8 +97,6 @@ main {
   color: brown;
   text-decoration: underline;
   text-transform: uppercase;
-  font-size: 3rem;
-  text-align: center;
 }
 
 .product__description {
@@ -127,16 +116,14 @@ main {
 }
 
 footer {
-  background-color: black;
   text-align: center;
   color: black;
   text-transform: uppercase;
   font-weight: 400;
-  padding: 1rem 0 1rem 0;
+  grid-area: footer;
 }
 
 .contenido-footer {
-  padding: 1rem;
   background-color: grey;
 }
 
@@ -186,12 +173,6 @@ footer {
   background-color: coral;
   font-size: 1.2em;
 }
-.imagen1 {
-  width: 4em;
-}
-.centro {
-  text-align: center;
-}
 
 @keyframes from-right {
   0% {
@@ -205,13 +186,15 @@ footer {
 }
 
 @media (min-width: 768px) {
+  body {
+    grid-template-areas:
+      "header"
+      "main"
+      "footer";
+  }
   .nav-list {
     display: flex;
     align-items: center;
     justify-content: space-between;
-  }
-
-  img {
-    max-width: 100%;
   }
 }
