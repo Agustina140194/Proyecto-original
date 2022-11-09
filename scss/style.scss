@@ -1,5 +1,5 @@
-$primary-color: brown;
-
-.text {
-  color: $primary-color;
-}
+@import "variables";
+@import "globals";
+@import "navbar";
+@import "index";
+@import "media";
