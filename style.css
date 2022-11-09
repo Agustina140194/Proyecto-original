@@ -4,7 +4,6 @@
   box-sizing: border-box;
 }
 body {
-  font-family: "Oswald", sans-serif;
   display: grid;
   grid-gap: 1rem;
   min-height: 100vh;
@@ -20,7 +19,6 @@ img {
 }
 
 header {
-  padding-top: 1rem;
   background-image: linear-gradient(to right, pink, white);
   position: sticky;
   top: 0%;
@@ -31,7 +29,7 @@ header {
 
 .container-fluid img {
   width: 8rem;
-  padding: 1rem;
+
   animation: from-right 1.5s ease;
 }
 
@@ -47,36 +45,11 @@ header {
 
 .nav-list__link:hover {
   opacity: 0.65;
-  background-color: white;
 }
 
 main {
-  background-color: aquamarine;
+  background-color: coral;
   grid-area: main;
-}
-
-.intro__col {
-  font-weight: 900;
-  color: black;
-  text-align: center;
-  padding: 4rem;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-}
-
-.intro__col--tittle {
-  background-color: brown;
-  font-weight: bold;
-  font-size: 3rem;
-  text-transform: uppercase;
-}
-
-.intro__col--description {
-  color: darkred;
-  font-size: 2rem;
-  font-weight: 400;
-  margin-top: 1.5rem;
 }
 
 .product {
@@ -88,90 +61,44 @@ main {
   padding: 2rem;
 }
 
-.product img {
-  height: 20rem;
-}
-
 .product__title {
-  margin-top: 3rem;
   color: brown;
   text-decoration: underline;
   text-transform: uppercase;
 }
 
-.product__description {
-  color: maroon;
-  font-size: 2rem;
-}
-
-.product__button {
-  background-color: firebrick;
-  border: solid;
-  color: black;
-  text-decoration: none;
-}
-
-.product__button:hover {
-  background-color: grey;
-}
-
 footer {
-  text-align: center;
-  color: black;
-  text-transform: uppercase;
-  font-weight: 400;
   grid-area: footer;
 }
 
-.contenido-footer {
-  background-color: grey;
+footer img {
+  height: 1rem;
 }
 
-.contenido-footer a {
+footer a {
   color: black;
   text-decoration: none;
 }
 
-.contenido-footer a:hover {
+footer a:hover {
   opacity: 0.65;
   text-decoration: underline;
 }
 
-.contenido-footer a i {
-  font-size: 1.5rem;
-}
-
-.contenido-footer img {
-  height: 1rem;
-}
-
-.contenido-footer__items {
-  padding: 1rem;
-}
-
 #seccionform {
   background-color: coral;
-  font-size: 1.8rem;
 }
 
 #secciontalles {
   background-color: coral;
-  font-size: 1.8rem;
-}
-
-.border-table {
-  border: solid 15px darkred;
-  display: inline-block;
 }
 
 #secciontrabajamos {
   background-color: coral;
-  font-size: 1.6em;
 }
 
 #seccionproductos {
   background-color: coral;
-  font-size: 1.2em;
 }
 
 @keyframes from-right {
