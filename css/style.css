@@ -38,7 +38,7 @@ img {
   padding: 2rem;
 }
 .product .product__title {
-  color: rgb(235, 154, 125);
+  color: brown;
   text-decoration: underline;
   text-transform: uppercase;
 }
