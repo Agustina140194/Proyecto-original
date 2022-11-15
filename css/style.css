@@ -19,15 +19,6 @@ nav ul .nav-link:hover {
   opacity: 0.65;
 }
 
-img {
-  max-width: 100%;
-}
-
-.imglogo {
-  height: 150px;
-  width: 150px;
-}
-
 .container-fluid img {
   width: 8rem;
   animation: from-right 1.5s ease;
@@ -47,11 +38,6 @@ img {
 
 .text {
   color: brown;
-}
-
-.img1 {
-  width: 400px;
-  height: 300px;
 }
 
 @media (min-width: 768px) {
@@ -103,6 +89,20 @@ footer a {
 footer a:hover {
   opacity: 0.65;
   text-decoration: underline;
+}
+
+img {
+  max-width: 100%;
+}
+
+.imglogo {
+  height: 150px;
+  width: 150px;
+}
+
+.img1 {
+  width: 400px;
+  height: 300px;
 }
 
 /*# sourceMappingURL=style.css.map */
