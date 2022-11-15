@@ -52,9 +52,13 @@ nav ul .nav-link:hover {
   .navmd .limd {
     padding-left: 4rem;
   }
-  .navmd .limd .imglogo {
+  .imglogo {
     height: 180px;
     width: 200px;
+  }
+  .tabla {
+    height: 300px;
+    width: 100%;
   }
 }
 body {
