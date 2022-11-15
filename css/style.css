@@ -47,6 +47,11 @@ img {
   color: brown;
 }
 
+.img1 {
+  width: 400px;
+  height: 300px;
+}
+
 @media (min-width: 768px) {
   body {
     grid-template-areas: "header" "main" "footer";
