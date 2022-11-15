@@ -10,20 +10,22 @@ nav {
 nav ul {
   list-style: none;
 }
-nav ul li {
-  padding-right: 6rem;
-}
-nav ul li .nav-link {
+nav ul .nav-link {
   color: coral;
   text-transform: uppercase;
   transition: all 2s ease;
 }
-nav ul li .nav-link:hover {
+nav ul .nav-link:hover {
   opacity: 0.65;
 }
 
 img {
   max-width: 100%;
+}
+
+.imglogo {
+  height: 180px;
+  width: 200px;
 }
 
 .container-fluid img {
@@ -56,10 +58,13 @@ img {
   body {
     grid-template-areas: "header" "main" "footer";
   }
-  ul {
+  .navmd {
     display: flex;
-    align-items: center;
+    flex-direction: row;
     justify-content: space-between;
+  }
+  .navmd .limd {
+    padding-left: 4rem;
   }
 }
 body {

@@ -5,9 +5,13 @@
       "main"
       "footer";
   }
-  ul {
+  .navmd {
     display: flex;
-    align-items: center;
+    flex-direction: row;
     justify-content: space-between;
+
+    .limd {
+      padding-left: 4rem;
+    }
   }
 }
