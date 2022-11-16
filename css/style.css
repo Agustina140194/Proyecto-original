@@ -2,6 +2,7 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+  font-family: "Roboto", sans-serif;
 }
 
 nav {
@@ -11,7 +12,7 @@ nav ul {
   list-style: none;
 }
 nav ul .nav-link {
-  color: coral;
+  color: rgb(235, 154, 125);
   text-transform: uppercase;
   transition: all 2s ease;
 }
@@ -21,7 +22,6 @@ nav ul .nav-link:hover {
 
 .container-fluid img {
   width: 8rem;
-  animation: from-right 1.5s ease;
 }
 
 .product {
@@ -44,12 +44,12 @@ nav ul .nav-link:hover {
   body {
     grid-template-areas: "header" "main" "footer";
   }
-  .navmd {
+  ul {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
   }
-  .navmd .limd {
+  ul li {
     padding-left: 4rem;
   }
   .imglogo {

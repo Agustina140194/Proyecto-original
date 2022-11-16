@@ -5,12 +5,12 @@
       "main"
       "footer";
   }
-  .navmd {
+  ul {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
 
-    .limd {
+    li {
       padding-left: 4rem;
     }
   }
