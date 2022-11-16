@@ -62,7 +62,6 @@ nav ul .nav-link:hover {
   }
 }
 body {
-  font-family: "Roboto", sans-serif;
   display: grid;
   grid-gap: 1rem;
   min-height: 100vh;
