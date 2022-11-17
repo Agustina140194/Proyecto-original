@@ -1,5 +1,12 @@
-.container-fluid img {
-  width: 8rem;
+body {
+  display: grid;
+  grid-gap: 1rem;
+  min-height: 100vh;
+  grid-template-columns: 100%;
+  grid-template-areas:
+    "header"
+    "main"
+    "footer";
 }
 
 .product {
@@ -9,12 +16,12 @@
   padding: 2rem;
 
   .product__title {
-    color: $primary-color;
+    color: $parrafo-color;
     text-decoration: underline;
     text-transform: uppercase;
   }
 }
 
 .text {
-  color: $primary-color;
+  color: $parrafo-color;
 }
