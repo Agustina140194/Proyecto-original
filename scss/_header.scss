@@ -9,6 +9,11 @@ header {
   nav {
     display: flex;
 
+    .imglogo {
+      height: 150px;
+      width: 150px;
+    }
+
     ul {
       list-style: none;
 
@@ -19,11 +24,6 @@ header {
 
         &:hover {
           opacity: 0.65;
-
-          .imglogo {
-            height: 150px;
-            width: 150px;
-          }
         }
       }
     }

@@ -1,0 +1,10 @@
+body {
+  display: grid;
+
+  min-height: 100vh;
+  grid-template-columns: 100%;
+  grid-template-areas:
+    "header"
+    "main"
+    "footer";
+}

@@ -1,14 +1,3 @@
-body {
-  display: grid;
-  grid-gap: 1rem;
-  min-height: 100vh;
-  grid-template-columns: 100%;
-  grid-template-areas:
-    "header"
-    "main"
-    "footer";
-}
-
 .product {
   display: flex;
   background-image: linear-gradient(chocolate, white);
